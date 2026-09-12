@@ -1,0 +1,4 @@
+google-cloud-bigquery
+google-generativeai
+sqlglot
+python-dotenv
