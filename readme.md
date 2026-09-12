@@ -34,7 +34,7 @@ python answer_question.py "Which product categories generate the highest total s
 - **`validate_sql.py`** — two-layer SQL validation, retry classification, and query execution
 - **`answer_question.py`** — single entry point tying generation → validation → retry → execution together
 
-## Scope, honestly stated
+## Scope
 
 This is **not** a RAG system. There's no vector database, no LangChain/LlamaIndex,
 no retrieval step — the full 5-table schema is passed directly in the prompt.
